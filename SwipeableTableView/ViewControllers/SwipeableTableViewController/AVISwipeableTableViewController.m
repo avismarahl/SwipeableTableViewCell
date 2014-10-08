@@ -23,7 +23,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     AVISwipeableTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:kCELL];
     if(cell == nil) {
-        cell = [[AVISwipeableTableViewCell alloc]initWithDelegate:self dataSource:self];
+        cell = [[AVISwipeableTableViewCell alloc]initWithDelegate:self];
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;

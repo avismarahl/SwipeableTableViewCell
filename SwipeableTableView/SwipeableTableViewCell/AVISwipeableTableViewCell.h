@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol AVISwipeableTableViewCellDataSource;
 @protocol AVISwipeableTableViewCellDelegate;
 
 
@@ -19,29 +18,25 @@
 }
 
 @property (nonatomic,strong) UIView *slidingView;
-@property (nonatomic,weak) id <AVISwipeableTableViewCellDataSource> dataSource;
+
 @property (nonatomic,weak) id <AVISwipeableTableViewCellDelegate> delegate;
 @property (nonatomic,strong) NSMutableArray *buttons;
 
-- (id)initWithDelegate:(id<AVISwipeableTableViewCellDelegate>)delegate dataSource:(id<AVISwipeableTableViewCellDataSource>)dataSource;
+- (id)initWithDelegate:(id<AVISwipeableTableViewCellDelegate>)delegate;
 - (void)closeSlidingView;
 
 @end
 
-@protocol AVISwipeableTableViewCellDataSource <NSObject>
+
+@protocol AVISwipeableTableViewCellDelegate <NSObject>
 
 @required
 - (NSInteger)numberOfButtonsInSlidingViewForCell:(AVISwipeableTableViewCell*)cell;
 - (UIButton*)swipeableTableViewCell:(AVISwipeableTableViewCell*) cell buttonForSlidingViewAtButtonIndex:(NSInteger)buttonIndex;
 
+
 @optional
 - (CGFloat)swipeableTableViewCell:(AVISwipeableTableViewCell*)cell widthOfButtonAtIndex:(NSInteger)index ;
-
-
-@end
-
-@protocol AVISwipeableTableViewCellDelegate <NSObject>
-
 - (void)swipeableTableViewCell:(AVISwipeableTableViewCell*)cell didTapOnButton:(UIButton*)button buttonIndex:(NSInteger)buttonIndex;
 
 - (BOOL)shouldSlideMenuBeOpenInCell:(AVISwipeableTableViewCell*)cell;

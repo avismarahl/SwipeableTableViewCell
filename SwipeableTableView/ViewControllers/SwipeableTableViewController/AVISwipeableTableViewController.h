@@ -10,6 +10,6 @@
 #import "AVISwipeableTableViewCell.h"
 
 
-@interface AVISwipeableTableViewController : UITableViewController <AVISwipeableTableViewCellDataSource,AVISwipeableTableViewCellDelegate>
+@interface AVISwipeableTableViewController : UITableViewController <AVISwipeableTableViewCellDelegate>
 
 @end

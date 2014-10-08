@@ -26,11 +26,10 @@
     [self openSlideMenuIfNeeded];
 }
 
-- (id)initWithDelegate:(id<AVISwipeableTableViewCellDelegate>)delegate dataSource:(id<AVISwipeableTableViewCellDataSource>)dataSource {
+- (id)initWithDelegate:(id<AVISwipeableTableViewCellDelegate>)delegate {
     self = [super init];
     if(self) {
         self.delegate = delegate;
-        self.dataSource = dataSource;
         [self commonInitializers];
         
     }
@@ -40,10 +39,10 @@
 
 #pragma mark - Helpers
 - (void)populateButtons {
-    NSInteger numberOfButtons = [self.dataSource numberOfButtonsInSlidingViewForCell:self];
+    NSInteger numberOfButtons = [self.delegate numberOfButtonsInSlidingViewForCell:self];
     self.buttons = [[NSMutableArray alloc]initWithCapacity:numberOfButtons];
     for(int i = 0; i < numberOfButtons ; i++) {
-        UIButton *currentButton = [self.dataSource swipeableTableViewCell:self buttonForSlidingViewAtButtonIndex:i];
+        UIButton *currentButton = [self.delegate swipeableTableViewCell:self buttonForSlidingViewAtButtonIndex:i];
         currentButton.tag = i;
         [currentButton addTarget:self action:@selector(leftAccessoryButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
         [self.buttons addObject:currentButton];
@@ -60,8 +59,8 @@
         CGFloat widthOfCurrentButton;
        
         UIButton *currentButton = [self.buttons objectAtIndex:i];
-        if([self.dataSource respondsToSelector:@selector(swipeableTableViewCell:widthOfButtonAtIndex:)]) {
-            widthOfCurrentButton = [self.dataSource swipeableTableViewCell:self widthOfButtonAtIndex:i];
+        if([self.delegate respondsToSelector:@selector(swipeableTableViewCell:widthOfButtonAtIndex:)]) {
+            widthOfCurrentButton = [self.delegate swipeableTableViewCell:self widthOfButtonAtIndex:i];
         } else {
             [currentButton sizeToFit];
             CGSize buttonSize = currentButton.frame.size;
