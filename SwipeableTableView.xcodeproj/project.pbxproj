@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F471F8219E5B88600BFD5B1 /* AVIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F471F8119E5B88600BFD5B1 /* AVIViewController.m */; };
+		0F471F8919E5BA0A00BFD5B1 /* AVISwipeableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F471F8819E5BA0A00BFD5B1 /* AVISwipeableTableViewController.m */; };
+		0F471F8C19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F471F8B19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.m */; };
 		0F8AA2A919E2B74F000790E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2A819E2B74F000790E0 /* main.m */; };
-		0F8AA2AC19E2B74F000790E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */; };
-		0F8AA2AF19E2B74F000790E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2AE19E2B74F000790E0 /* ViewController.m */; };
+		0F8AA2AC19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2AB19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.m */; };
 		0F8AA2B219E2B74F000790E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B019E2B74F000790E0 /* Main.storyboard */; };
 		0F8AA2B419E2B74F000790E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B319E2B74F000790E0 /* Images.xcassets */; };
 		0F8AA2B719E2B74F000790E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */; };
 		0F8AA2C319E2B74F000790E0 /* SwipeableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2C219E2B74F000790E0 /* SwipeableTableViewTests.m */; };
-		0F8AA2CE19E2B7FB000790E0 /* SwipeableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */; };
-		0F8AA2D119E2B85F000790E0 /* SwipeableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,23 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F471F8019E5B88600BFD5B1 /* AVIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVIViewController.h; path = ViewControllers/ViewController/AVIViewController.h; sourceTree = "<group>"; };
+		0F471F8119E5B88600BFD5B1 /* AVIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVIViewController.m; path = ViewControllers/ViewController/AVIViewController.m; sourceTree = "<group>"; };
+		0F471F8719E5BA0A00BFD5B1 /* AVISwipeableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVISwipeableTableViewController.h; path = ViewControllers/SwipeableTableViewController/AVISwipeableTableViewController.h; sourceTree = "<group>"; };
+		0F471F8819E5BA0A00BFD5B1 /* AVISwipeableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVISwipeableTableViewController.m; path = ViewControllers/SwipeableTableViewController/AVISwipeableTableViewController.m; sourceTree = "<group>"; };
+		0F471F8A19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVISwipeableTableViewCell.h; path = SwipeableTableViewCell/AVISwipeableTableViewCell.h; sourceTree = "<group>"; };
+		0F471F8B19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVISwipeableTableViewCell.m; path = SwipeableTableViewCell/AVISwipeableTableViewCell.m; sourceTree = "<group>"; };
 		0F8AA2A319E2B74F000790E0 /* SwipeableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8AA2A719E2B74F000790E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F8AA2A819E2B74F000790E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F8AA2AA19E2B74F000790E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F8AA2AD19E2B74F000790E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F8AA2AE19E2B74F000790E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F8AA2AA19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVISwipeableTableViewAppDelegate.h; sourceTree = "<group>"; };
+		0F8AA2AB19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVISwipeableTableViewAppDelegate.m; sourceTree = "<group>"; };
 		0F8AA2B119E2B74F000790E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F8AA2B319E2B74F000790E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F8AA2B619E2B74F000790E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0F8AA2BC19E2B74F000790E0 /* SwipeableTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8AA2C119E2B74F000790E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F8AA2C219E2B74F000790E0 /* SwipeableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewTests.m; sourceTree = "<group>"; };
-		0F8AA2CC19E2B7FB000790E0 /* SwipeableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableTableViewController.h; sourceTree = "<group>"; };
-		0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewController.m; sourceTree = "<group>"; };
-		0F8AA2CF19E2B85F000790E0 /* SwipeableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableTableViewCell.h; sourceTree = "<group>"; };
-		0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F471F7319E5B74B00BFD5B1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2B319E2B74F000790E0 /* Images.xcassets */,
+				0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */,
+				0F8AA2A719E2B74F000790E0 /* Info.plist */,
+				0F8AA2A819E2B74F000790E0 /* main.m */,
+				0F8AA2AA19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.h */,
+				0F8AA2AB19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.m */,
+				0F8AA2B019E2B74F000790E0 /* Main.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0F471F7419E5B78200BFD5B1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F471F7719E5B7A200BFD5B1 /* SwipeTableViewController */,
+				0F471F7519E5B78D00BFD5B1 /* ViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F471F7519E5B78D00BFD5B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F471F8019E5B88600BFD5B1 /* AVIViewController.h */,
+				0F471F8119E5B88600BFD5B1 /* AVIViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0F471F7719E5B7A200BFD5B1 /* SwipeTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F471F8719E5BA0A00BFD5B1 /* AVISwipeableTableViewController.h */,
+				0F471F8819E5BA0A00BFD5B1 /* AVISwipeableTableViewController.m */,
+			);
+			name = SwipeTableViewController;
+			sourceTree = "<group>";
+		};
+		0F471F8319E5B94C00BFD5B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F471F8A19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.h */,
+				0F471F8B19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		0F8AA29A19E2B74F000790E0 = {
 			isa = PBXGroup;
 			children = (
@@ -87,29 +137,11 @@
 		0F8AA2A519E2B74F000790E0 /* SwipeableTableView */ = {
 			isa = PBXGroup;
 			children = (
-				0F8AA2AA19E2B74F000790E0 /* AppDelegate.h */,
-				0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */,
-				0F8AA2AD19E2B74F000790E0 /* ViewController.h */,
-				0F8AA2AE19E2B74F000790E0 /* ViewController.m */,
-				0F8AA2B019E2B74F000790E0 /* Main.storyboard */,
-				0F8AA2B319E2B74F000790E0 /* Images.xcassets */,
-				0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */,
-				0F8AA2A619E2B74F000790E0 /* Supporting Files */,
-				0F8AA2CC19E2B7FB000790E0 /* SwipeableTableViewController.h */,
-				0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */,
-				0F8AA2CF19E2B85F000790E0 /* SwipeableTableViewCell.h */,
-				0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */,
+				0F471F7419E5B78200BFD5B1 /* ViewControllers */,
+				0F471F8319E5B94C00BFD5B1 /* View */,
+				0F471F7319E5B74B00BFD5B1 /* Application */,
 			);
 			path = SwipeableTableView;
-			sourceTree = "<group>";
-		};
-		0F8AA2A619E2B74F000790E0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0F8AA2A719E2B74F000790E0 /* Info.plist */,
-				0F8AA2A819E2B74F000790E0 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0F8AA2BF19E2B74F000790E0 /* SwipeableTableViewTests */ = {
@@ -229,10 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8AA2D119E2B85F000790E0 /* SwipeableTableViewCell.m in Sources */,
-				0F8AA2CE19E2B7FB000790E0 /* SwipeableTableViewController.m in Sources */,
-				0F8AA2AF19E2B74F000790E0 /* ViewController.m in Sources */,
-				0F8AA2AC19E2B74F000790E0 /* AppDelegate.m in Sources */,
+				0F471F8919E5BA0A00BFD5B1 /* AVISwipeableTableViewController.m in Sources */,
+				0F471F8C19E5BA1700BFD5B1 /* AVISwipeableTableViewCell.m in Sources */,
+				0F8AA2AC19E2B74F000790E0 /* AVISwipeableTableViewAppDelegate.m in Sources */,
+				0F471F8219E5B88600BFD5B1 /* AVIViewController.m in Sources */,
 				0F8AA2A919E2B74F000790E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

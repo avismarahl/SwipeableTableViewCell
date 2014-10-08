@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  AVIViewController.m
 //  SwipeableTableView
 //
 //  Created by Avismara on 06/10/14.
-//  Copyright (c) 2014 Rare Mile. All rights reserved.
+//  Copyright (c) 2014 Avismara. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AVIViewController.h"
 
-@interface ViewController ()
+@interface AVIViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AVIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

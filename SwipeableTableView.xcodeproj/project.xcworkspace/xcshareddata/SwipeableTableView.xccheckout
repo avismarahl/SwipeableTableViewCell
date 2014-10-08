@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4009E03E-01A4-4995-885B-083D7F5C3A53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwipeableTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D282E921CF3F9F25C46B5E29583BB57E0479844</key>
+		<string>https://github.com/avismarahl/SwipingTableViewCell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwipeableTableView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D282E921CF3F9F25C46B5E29583BB57E0479844</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/avismarahl/SwipingTableViewCell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D282E921CF3F9F25C46B5E29583BB57E0479844</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D282E921CF3F9F25C46B5E29583BB57E0479844</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwipingTableViewCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,14 +1,14 @@
 //
-//  UITableViewCell.m
+//  AVISwipeableTableViewCell.m
 //  SwipeableTableView
 //
 //  Created by Avismara on 06/10/14.
 //  Copyright (c) 2014 Rare Mile. All rights reserved.
 //
 
-#import "SwipeableTableViewCell.h"
+#import "AVISwipeableTableViewCell.h"
 
-@implementation SwipeableTableViewCell
+@implementation AVISwipeableTableViewCell
 
 #pragma mark Initializers
 - (id)init {
@@ -27,7 +27,7 @@
     [self openSlideMenuIfNeeded];
 }
 
-- (id)initWithDelegate:(id<SwipeableTableViewCellDelegate>)delegate dataSource:(id<SwipeableTableViewCellDataSource>)dataSource {
+- (id)initWithDelegate:(id<AVISwipeableTableViewCellDelegate>)delegate dataSource:(id<AVISwipeableTableViewCellDataSource>)dataSource {
     self = [super init];
     if(self) {
         self.delegate = delegate;
@@ -151,10 +151,10 @@
     }
     
     if(velocity.x < 0) {
-        if(slidingViewXPosition <= -slidingViewWidth ) {
+        if(slidingViewXPosition >= -slidingViewWidth ) {
             CGFloat currentSlidingViewXPosition = previousSlidingViewXPosition + xMovedDifference;
             previousPanXPosition = currentPanXPosition;
-            if(currentSlidingViewXPosition <= -slidingViewWidth) {
+            if(currentSlidingViewXPosition >= -slidingViewWidth) {
                 slidingViewFrame.origin.x = currentSlidingViewXPosition;
                 previousSlidingViewXPosition = currentSlidingViewXPosition;
             } else {

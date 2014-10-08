@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Rare Mile. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "AVISwipeableTableViewAppDelegate.h"
 
-@interface AppDelegate ()
+@interface AVISwipeableTableViewAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AVISwipeableTableViewAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

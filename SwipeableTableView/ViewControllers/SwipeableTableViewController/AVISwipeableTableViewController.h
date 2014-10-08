@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SwipeableTableViewCell.h"
+#import "AVISwipeableTableViewCell.h"
 
 
-@interface SwipeableTableViewController : UITableViewController <SwipeableTableViewCellDataSource,SwipeableTableViewCellDelegate>
+@interface AVISwipeableTableViewController : UITableViewController <AVISwipeableTableViewCellDataSource,AVISwipeableTableViewCellDelegate>
 
 @end
