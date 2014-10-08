@@ -3,7 +3,7 @@
 //  SwipeableTableView
 //
 //  Created by Avismara on 06/10/14.
-//  Copyright (c) 2014 Rare Mile. All rights reserved.
+//  Copyright (c) 2014 Avismara. All rights reserved.
 //
 
 #import "AVISwipeableTableViewCell.h"
@@ -19,7 +19,6 @@
     return self;
     
 }
-
 - (void)commonInitializers {
     [self addPanGestureRecognizer];
     [self populateButtons];
@@ -184,6 +183,24 @@
         self.slidingView.frame = CGRectMake(-self.slidingView.frame.size.width, 0, self.slidingView.frame.size.width, self.slidingView.frame.size.height);
     }];
 }
+
+#pragma mark - Delegates
+#pragma mark UIGestureRecognizer delegates
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    
+    if([gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]]) {
+        UIPanGestureRecognizer *panGestureRecognizer = (UIPanGestureRecognizer*)gestureRecognizer;
+        CGPoint velocity = [panGestureRecognizer velocityInView:self];
+        return fabs(velocity.y) > fabs(velocity.x);
+    }
+    
+    return YES;
+}
+- (BOOL)gestureRecognizerShouldBegin:(UIPanGestureRecognizer *)panGestureRecognizer {
+    CGPoint velocity = [panGestureRecognizer velocityInView:self];
+    return fabs(velocity.y) < fabs(velocity.x);
+}
+
 
 
 

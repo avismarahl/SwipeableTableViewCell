@@ -3,7 +3,7 @@
 //  SwipeableTableView
 //
 //  Created by Avismara on 06/10/14.
-//  Copyright (c) 2014 Rare Mile. All rights reserved.
+//  Copyright (c) 2014 Avismara. All rights reserved.
 //
 
 #import "AVISwipeableTableViewController.h"
