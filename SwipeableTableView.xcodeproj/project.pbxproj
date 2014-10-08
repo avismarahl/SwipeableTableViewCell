@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8AA2A919E2B74F000790E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2A819E2B74F000790E0 /* main.m */; };
+		0F8AA2AC19E2B74F000790E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */; };
+		0F8AA2AF19E2B74F000790E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2AE19E2B74F000790E0 /* ViewController.m */; };
+		0F8AA2B219E2B74F000790E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B019E2B74F000790E0 /* Main.storyboard */; };
+		0F8AA2B419E2B74F000790E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B319E2B74F000790E0 /* Images.xcassets */; };
+		0F8AA2B719E2B74F000790E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */; };
+		0F8AA2C319E2B74F000790E0 /* SwipeableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2C219E2B74F000790E0 /* SwipeableTableViewTests.m */; };
+		0F8AA2CE19E2B7FB000790E0 /* SwipeableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */; };
+		0F8AA2D119E2B85F000790E0 /* SwipeableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F8AA2BD19E2B74F000790E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F8AA29B19E2B74F000790E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F8AA2A219E2B74F000790E0;
+			remoteInfo = SwipeableTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8AA2A319E2B74F000790E0 /* SwipeableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8AA2A719E2B74F000790E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8AA2A819E2B74F000790E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F8AA2AA19E2B74F000790E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F8AA2AD19E2B74F000790E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F8AA2AE19E2B74F000790E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F8AA2B119E2B74F000790E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F8AA2B319E2B74F000790E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F8AA2B619E2B74F000790E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F8AA2BC19E2B74F000790E0 /* SwipeableTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8AA2C119E2B74F000790E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8AA2C219E2B74F000790E0 /* SwipeableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewTests.m; sourceTree = "<group>"; };
+		0F8AA2CC19E2B7FB000790E0 /* SwipeableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableTableViewController.h; sourceTree = "<group>"; };
+		0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewController.m; sourceTree = "<group>"; };
+		0F8AA2CF19E2B85F000790E0 /* SwipeableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableTableViewCell.h; sourceTree = "<group>"; };
+		0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8AA2A019E2B74F000790E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8AA2B919E2B74F000790E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8AA29A19E2B74F000790E0 = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2A519E2B74F000790E0 /* SwipeableTableView */,
+				0F8AA2BF19E2B74F000790E0 /* SwipeableTableViewTests */,
+				0F8AA2A419E2B74F000790E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F8AA2A419E2B74F000790E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2A319E2B74F000790E0 /* SwipeableTableView.app */,
+				0F8AA2BC19E2B74F000790E0 /* SwipeableTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F8AA2A519E2B74F000790E0 /* SwipeableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2AA19E2B74F000790E0 /* AppDelegate.h */,
+				0F8AA2AB19E2B74F000790E0 /* AppDelegate.m */,
+				0F8AA2AD19E2B74F000790E0 /* ViewController.h */,
+				0F8AA2AE19E2B74F000790E0 /* ViewController.m */,
+				0F8AA2B019E2B74F000790E0 /* Main.storyboard */,
+				0F8AA2B319E2B74F000790E0 /* Images.xcassets */,
+				0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */,
+				0F8AA2A619E2B74F000790E0 /* Supporting Files */,
+				0F8AA2CC19E2B7FB000790E0 /* SwipeableTableViewController.h */,
+				0F8AA2CD19E2B7FB000790E0 /* SwipeableTableViewController.m */,
+				0F8AA2CF19E2B85F000790E0 /* SwipeableTableViewCell.h */,
+				0F8AA2D019E2B85F000790E0 /* SwipeableTableViewCell.m */,
+			);
+			path = SwipeableTableView;
+			sourceTree = "<group>";
+		};
+		0F8AA2A619E2B74F000790E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2A719E2B74F000790E0 /* Info.plist */,
+				0F8AA2A819E2B74F000790E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F8AA2BF19E2B74F000790E0 /* SwipeableTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2C219E2B74F000790E0 /* SwipeableTableViewTests.m */,
+				0F8AA2C019E2B74F000790E0 /* Supporting Files */,
+			);
+			path = SwipeableTableViewTests;
+			sourceTree = "<group>";
+		};
+		0F8AA2C019E2B74F000790E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AA2C119E2B74F000790E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F8AA2A219E2B74F000790E0 /* SwipeableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8AA2C619E2B74F000790E0 /* Build configuration list for PBXNativeTarget "SwipeableTableView" */;
+			buildPhases = (
+				0F8AA29F19E2B74F000790E0 /* Sources */,
+				0F8AA2A019E2B74F000790E0 /* Frameworks */,
+				0F8AA2A119E2B74F000790E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeableTableView;
+			productName = SwipeableTableView;
+			productReference = 0F8AA2A319E2B74F000790E0 /* SwipeableTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F8AA2BB19E2B74F000790E0 /* SwipeableTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8AA2C919E2B74F000790E0 /* Build configuration list for PBXNativeTarget "SwipeableTableViewTests" */;
+			buildPhases = (
+				0F8AA2B819E2B74F000790E0 /* Sources */,
+				0F8AA2B919E2B74F000790E0 /* Frameworks */,
+				0F8AA2BA19E2B74F000790E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F8AA2BE19E2B74F000790E0 /* PBXTargetDependency */,
+			);
+			name = SwipeableTableViewTests;
+			productName = SwipeableTableViewTests;
+			productReference = 0F8AA2BC19E2B74F000790E0 /* SwipeableTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F8AA29B19E2B74F000790E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rare Mile";
+				TargetAttributes = {
+					0F8AA2A219E2B74F000790E0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0F8AA2BB19E2B74F000790E0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0F8AA2A219E2B74F000790E0;
+					};
+				};
+			};
+			buildConfigurationList = 0F8AA29E19E2B74F000790E0 /* Build configuration list for PBXProject "SwipeableTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F8AA29A19E2B74F000790E0;
+			productRefGroup = 0F8AA2A419E2B74F000790E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8AA2A219E2B74F000790E0 /* SwipeableTableView */,
+				0F8AA2BB19E2B74F000790E0 /* SwipeableTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F8AA2A119E2B74F000790E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8AA2B219E2B74F000790E0 /* Main.storyboard in Resources */,
+				0F8AA2B719E2B74F000790E0 /* LaunchScreen.xib in Resources */,
+				0F8AA2B419E2B74F000790E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8AA2BA19E2B74F000790E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F8AA29F19E2B74F000790E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8AA2D119E2B85F000790E0 /* SwipeableTableViewCell.m in Sources */,
+				0F8AA2CE19E2B7FB000790E0 /* SwipeableTableViewController.m in Sources */,
+				0F8AA2AF19E2B74F000790E0 /* ViewController.m in Sources */,
+				0F8AA2AC19E2B74F000790E0 /* AppDelegate.m in Sources */,
+				0F8AA2A919E2B74F000790E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8AA2B819E2B74F000790E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8AA2C319E2B74F000790E0 /* SwipeableTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F8AA2BE19E2B74F000790E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F8AA2A219E2B74F000790E0 /* SwipeableTableView */;
+			targetProxy = 0F8AA2BD19E2B74F000790E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F8AA2B019E2B74F000790E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F8AA2B119E2B74F000790E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F8AA2B519E2B74F000790E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F8AA2B619E2B74F000790E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F8AA2C419E2B74F000790E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F8AA2C519E2B74F000790E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F8AA2C719E2B74F000790E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeableTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F8AA2C819E2B74F000790E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeableTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F8AA2CA19E2B74F000790E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeableTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeableTableView.app/SwipeableTableView";
+			};
+			name = Debug;
+		};
+		0F8AA2CB19E2B74F000790E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeableTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeableTableView.app/SwipeableTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8AA29E19E2B74F000790E0 /* Build configuration list for PBXProject "SwipeableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8AA2C419E2B74F000790E0 /* Debug */,
+				0F8AA2C519E2B74F000790E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8AA2C619E2B74F000790E0 /* Build configuration list for PBXNativeTarget "SwipeableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8AA2C719E2B74F000790E0 /* Debug */,
+				0F8AA2C819E2B74F000790E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8AA2C919E2B74F000790E0 /* Build configuration list for PBXNativeTarget "SwipeableTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8AA2CA19E2B74F000790E0 /* Debug */,
+				0F8AA2CB19E2B74F000790E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F8AA29B19E2B74F000790E0 /* Project object */;
+}
